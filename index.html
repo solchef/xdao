@@ -72,7 +72,7 @@
 
 
     <nav class="justify-content-between navbar navbar-expand-lg fixed-top center-brand static-nav">
-        <a class="navbar-brand" href="https://socialx.io/">
+        <a class="navbar-brand" href="/">
             <img src="img/logo.png" alt="logo" class="logo-default">
         </a>
         <div class="float-right">
@@ -84,17 +84,17 @@
         </div>
 
     </nav>
-    <!--
-<div class="row" style="position: fixed; top: 10%; bottom: 90%; right: 37%; left: 42%; z-index: 1;">
-    <div class="clock">
-        <div id="countdown">
-            <p class="li"><span id="days"></span>days</p>
-            <p class="li"><span id="hours"></span>Hours</p>
-            <p class="li"><span id="minutes"></span>Minutes</p>
-            <p class="li"><span id="seconds"></span>Seconds</p>
+
+    <div class="row" style="position: fixed; top: 10%; bottom: 90%; right: 37%; left: 42%; z-index: 1;">
+        <div class="clock">
+            <div id="countdown">
+                <p class="li"><span id="days"></span>days</p>
+                <p class="li"><span id="hours"></span>Hours</p>
+                <p class="li"><span id="minutes"></span>Minutes</p>
+                <p class="li"><span id="seconds"></span>Seconds</p>
+            </div>
         </div>
     </div>
-    </div>-->
 
     <div class="accordion">
         <ul>
@@ -235,9 +235,10 @@
                 mm = String(today.getMonth() + 1).padStart(2, "0"),
                 yyyy = today.getFullYear(),
                 nextYear = yyyy + 1,
-                dayMonth = "05/15/",
+                dayMonth = "07/01/",
                 launch = dayMonth + yyyy;
 
+            console.log(launch);
 
             const countDown = new Date(launch).getTime(),
                 x = setInterval(function() {
