@@ -332,9 +332,9 @@ if (!localStorage.getItem('referral')) {
 // if(swap_link){
 //     swap_link.addEventListener("click", function() {
 //       if(localStorage.getItem('referral')){
-//           window.location.href = "https://app.socialx.io?ref="+localStorage.getItem('referral')
+//           window.location.href = "https://app.xdao.games?ref="+localStorage.getItem('referral')
 //       }else{
-//         window.location.href = "https://app.socialx.io"
+//         window.location.href = "https://app.xdao.games"
 //       }
 
 //     });
@@ -344,9 +344,9 @@ if (!localStorage.getItem('referral')) {
 // if(staking_link){
 //   staking_link.addEventListener("click", function() {
 //     if(localStorage.getItem('referral')){
-//         window.location.href = "https://app.socialx.io?ref="+localStorage.getItem('referral')
+//         window.location.href = "https://app.xdao.games?ref="+localStorage.getItem('referral')
 //     }else{
-//       window.location.href = "https://app.socialx.io"
+//       window.location.href = "https://app.xdao.games"
 //     }
 //   });
 // }
@@ -355,9 +355,9 @@ if (!localStorage.getItem('referral')) {
 // if(swap_link2){
 //   swap_link2.addEventListener("click", function() {
 //     if(localStorage.getItem('referral')){
-//         window.location.href = "https://app.socialx.io?ref="+localStorage.getItem('referral')
+//         window.location.href = "https://app.xdao.games?ref="+localStorage.getItem('referral')
 //     }else{
-//       window.location.href = "https://app.socialx.io"
+//       window.location.href = "https://app.xdao.games"
 //     }
 //   });
 

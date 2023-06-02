@@ -85,9 +85,9 @@
 
     </nav>
 
-    <div class="row" style="position: fixed; top: 10%; bottom: 90%; right: 37%; left: 42%; z-index: 1;">
+    <div class="row counter">
         <div class="clock">
-            <div id="countdown">
+            <div id="countdown" style="display:flex">
                 <p class="li"><span id="days"></span>days</p>
                 <p class="li"><span id="hours"></span>Hours</p>
                 <p class="li"><span id="minutes"></span>Minutes</p>
@@ -245,7 +245,6 @@
                     const now = new Date().getTime(),
                         distance = countDown - now;
                     if (document.getElementById("days")) {
-
 
                         (document.getElementById("days").innerText = Math.floor(distance / day)),
                         (document.getElementById("hours").innerText = Math.floor(
